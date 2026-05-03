@@ -1,10 +1,48 @@
-# Use Jekyll theme Minima in dark mode
+# Site-wide settings
+# ------------------
+
+title: Markdown Website Template for GitHub Pages
+
+author:
+  name: GitHub User
+  # email: your-email@domain.com
+
+
+# Build settings
+# --------------
+
+# Use Jekyll/Minima theme directly from the GitHub repository by bypassing a
+#   Gemfile. Lock to a particular commit to avoid unexpected upstream changes to
+#   template configuration.
 remote_theme: jekyll/minima@4de3223
 
+# Plugins required for Minima theme
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+# Minima-specific settings (applicable to Minima v3 and above only)
+# -----------------------------------------------------------------
 
 minima:
+  # Dark variant of the classic skin
   skin: dark
 
+  # Specify pages for site navigation
+  nav_pages:
+    - index.md
+    # - about.md
+
+  # Specify Minima date format (dd mmm yyyy)
+  date_format: "%d %b %Y"
+
+  # Social media links
+  social_links:
+    - title: md-webpage-template repository at GitHub
+    - icon: GitHub
+    - url: "https://github.com/0xNixxy/md-webpage-template"
+
+  # Hide syndication feed subscription link
   hide_site_feed_link: true
