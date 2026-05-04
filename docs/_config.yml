@@ -46,8 +46,8 @@ minima:
   # Social media links
   social_links:
     - title: md-webpage-template repository at GitHub
-    - icon: GitHub
-    - url: "https://github.com/0xNixxy/md-webpage-template"
+      icon: github
+      url: "https://github.com/0xNixxy/md-webpage-template"
 
   # Hide syndication feed subscription link
   hide_site_feed_link: true
