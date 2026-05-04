@@ -1,10 +1,15 @@
-# Site-wide settings
-# ------------------
+# Front Matter global settings
+# ----------------------------
 
+# Default title
 title: Markdown Website Template for GitHub Pages
 
+# Default description
+description: "Markdown website template using Jekyll/Minima theme on GitHub Pages."
+
+# Default author details
 author:
-  name: GitHub User
+  name: Your Name
   # email: your-email@domain.com
 
 

@@ -1,4 +1,9 @@
-# Sample Article
+---
+layout: page
+title: "Sample Article"
+---
+
+# Introduction
 
 This is a sample Markdown article to demonstrate how internal linking works with
 this template.

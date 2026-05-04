@@ -1,4 +1,9 @@
-# Sample Documentation Home
+---
+layout: home
+permalink: /
+---
+
+# Introduction
 
 Welcome to the Markdown reference site. This template lets you host Markdown
 files as webpages on GitHub Pages without any plugins or complex setups.
